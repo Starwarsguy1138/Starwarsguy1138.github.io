@@ -1,7 +1,7 @@
 /*
 Developer:		Alexander James Campbell
 Date Created:	1-24-2019
-Date Updated:	1-24-2019
+Date Updated:	1-28-2019
 Website:		Maps of Sennovia
 File Name:		stylesheet.css
 */
@@ -9,3 +9,4 @@ File Name:		stylesheet.css
 body {background-color:#3399ff;}
 p {font: georgian;}
 img {width:99.99%;}
+h1 {margin: center;}

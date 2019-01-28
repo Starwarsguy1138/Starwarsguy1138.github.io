@@ -9,4 +9,4 @@ File Name:		stylesheet.css
 body {background-color:#3399ff;}
 p {font: georgian;}
 img {width:99.99%;}
-.center {margin: auto; text-align: center;}
+.center {width: 100%; margin: auto; text-align: center;}

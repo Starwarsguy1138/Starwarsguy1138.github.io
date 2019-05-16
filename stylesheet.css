@@ -5,9 +5,52 @@ Date Updated:	1-28-2019
 Website:		Maps of Sennovia
 File Name:		stylesheet.css
 */
-html {font-size:16px;}
-body {background-color:#3399ff;}
-p {font: georgian; font-size: 1em;}
-img {width:99.99%;}
-.center {width: 100%; margin: auto; text-align: center;}
-a:visited {color: #076E00;}
+html {
+     font-size:16px;
+}
+
+body {
+     background-color:#3399ff;
+}
+
+p {
+     font-family: 'Satisfy', cursive;
+     font-size: 1.5em;
+     text-align: justify;
+     align-self: center;
+     margin: 20px;
+     border: 5px #2870B8 solid;
+     background-color: #3396F8;
+}
+
+.bg-light {
+     opacity: 0.9;
+     /*float: left;
+     position: fixed;
+     margin: 0 auto;
+     width: 100%;*/
+}
+
+h1 {
+     margin: auto;
+     padding: 10px;
+}
+
+h2 {
+     margin: auto;
+     padding: 10px;
+}
+
+img {
+     width:99.99%;
+}
+
+.center {
+     width: 100%;
+     margin: auto;
+     text-align: center;
+}
+
+a:visited {
+     color: #076E00;
+}

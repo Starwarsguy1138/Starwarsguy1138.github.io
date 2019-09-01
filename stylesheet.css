@@ -10,7 +10,10 @@ html {
 }
 
 body {
-     background-color:#3399ff;
+     background-image: url("D&DBG2.jpg");
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 p {
@@ -21,10 +24,13 @@ p {
      margin: 20px;
      border: 5px #2870B8 solid;
      background-color: #3396F8;
+     opacity: .75;
+     z-index: -1;
 }
 
 .bg-light {
      opacity: 0.9;
+     z-index: 1;
      /*float: left;
      position: fixed;
      margin: 0 auto;
@@ -34,15 +40,20 @@ p {
 h1 {
      margin: auto;
      padding: 10px;
+     color: #3396F8;
+     text-shadow: 1.5px 1.5px 2px black, -1.65px -1.65px 3px #098501;
 }
 
 h2 {
      margin: auto;
      padding: 10px;
+     color: #2870B8;
+     text-shadow: 1.5px 1.5px 2px black, -1.65px -1.65px 3px #098501;
 }
 
 img {
      width:99.99%;
+     padding: 50px;
 }
 
 .center {
